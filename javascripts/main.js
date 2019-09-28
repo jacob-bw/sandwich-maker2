@@ -1,3 +1,13 @@
-console.log("testing linked page");
+console.log("hoooooboy here we go");
 
-//just making a change so there's something to try and compare for the pull request
+import bread from "./components/bread.js";
+import cheese from "./components/cheese.js";
+import order from "./components/sandwich.js";
+
+const init = () => {
+  cheese.printCheeseOptions();
+  bread.printBreadOptions();
+  order.printOrderButton();
+};
+
+init();
