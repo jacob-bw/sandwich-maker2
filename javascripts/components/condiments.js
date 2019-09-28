@@ -1,7 +1,7 @@
 const condiments = [
     {
         id: 'condiment1',
-        name: 'dukes mayo,
+        name: 'dukes mayo',
         price: 50
     },
     {
