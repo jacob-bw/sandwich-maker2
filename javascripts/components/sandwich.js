@@ -6,10 +6,12 @@ import utilities from '../helpers/utilities.js'
 import veggies from './veggies.js';
 
 const createFinalOrder = (ingredients) => {
+    const total = ingredients.reduce((prev, curr) => prev + curr.price, 0);
     let domString2 = '';
-    for(let i = 0; i < ingredients.length; i++){
-        domString2 += `<h4>${ingredients[i].name} ${ingredients[i].price}</h4>`;
+    for (let i = 0; i < ingredients.length; i++){
+        domString2 += `<p>${ingredients[i].name} $${(ingredients[i].price/100).toFixed(2)}</p>`;
     }
+    domString2 += `<h4>Total Cost: $${(total/100).toFixed(2)}</h4>`
     utilities.printToDom(domString2, 'final-order');
 }
 
