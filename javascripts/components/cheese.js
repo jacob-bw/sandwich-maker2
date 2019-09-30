@@ -60,4 +60,3 @@ const printCheeseOptions = () => {
 };
 
 export default { printCheeseOptions, getSelectedCheeses };
-//concerned no pull request opened, retrying
