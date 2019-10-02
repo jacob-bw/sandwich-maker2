@@ -4,7 +4,9 @@
 Use the site/application to select ingredients and build your own sandwich, including final total cost of sandwich.
 
 ## Screenshots
-![sandwich maker preview](https://raw.githubusercontent.com/jacob-bw/sandwich-maker2/master/sandwich%20screenshot.PNG)
+![sandwich maker preview](https://raw.githubusercontent.com/jacob-bw/sandwich-maker2/master/sandwich-maker-final.png)
+
+![sandiwch maker preview - order total expanded](https://raw.githubusercontent.com/jacob-bw/sandwich-maker2/master/sandwich-maker-expanded-total.png)
 
 ## How to Run
 * clone down this project
