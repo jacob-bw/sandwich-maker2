@@ -1,3 +1,14 @@
 body {
-    background-color: goldenrod;
+    background-color: gold;
 };
+
+#sando-columns {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+};
+
+.final-order {
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+}
