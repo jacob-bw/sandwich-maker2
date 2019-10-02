@@ -1,4 +1,4 @@
-console.log("hoooooboy here we go");
+console.log("And awaaaaay we go");
 
 import bread from "./components/bread.js";
 import cheese from "./components/cheese.js";
